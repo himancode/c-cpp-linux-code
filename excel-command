@@ -1,0 +1,1 @@
+=IF(ISERROR(VLOOKUP(A4,$C$4:$C$14, 1, FALSE)),"Not Exist","Exist") - it checks whether the value in the column A exists in the range of C4 to C4. False indicates an exact match.
