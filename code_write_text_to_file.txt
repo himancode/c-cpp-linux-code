@@ -1,7 +1,7 @@
 #include <fstream> // header file
 
 std::ofstream filehandle;  // file handle
-filehandle.open("/mobib/etc/serverlog.txt", std::ofstream::out | std::ofstream::app);  // file open in write/append
+filehandle.open("/server/path/serverlog.txt", std::ofstream::out | std::ofstream::app);  // file opened in write(if it does not exists) /append(if it exists) mode.
 filehandle << "test write to a file";    // writing to the file
 
 filehandle.close(); // file close
