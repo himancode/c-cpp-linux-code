@@ -1,0 +1,8 @@
+#include <fstream>
+
+std::ofstream filehandle;
+filehandle.open("/mobib/etc/cisserverlog.txt", std::ofstream::out | std::ofstream::app);
+filehandle << "test write to a file";
+
+filehandle.close();
+
