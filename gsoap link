@@ -1,0 +1,5 @@
+https://www.cs.fsu.edu/~engelen/soap.html
+
+[Commands to generate the stub]
+wsdl2h -o outfile.h infile.wsdl
+soapcpp2 -j outfile.h
